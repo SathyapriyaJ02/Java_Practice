@@ -1,0 +1,147 @@
+@charset "ISO-8859-1";
+/* Reset some default styles */
+
+body, h1, p, table {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+ 
+
+/* Set a common font for the entire application */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f0f0f0; /* Changed background color */
+
+}
+
+ 
+
+/* Header styles */
+
+header {
+
+    background-color: #007bff; /* Changed header background color */
+
+    color: white;
+
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+ 
+
+/* Center-align the content vertically and horizontally */
+
+body {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-height: 100vh; /* Changed to min-height for better responsiveness */
+
+}
+
+ 
+
+/* Form container styles */
+
+.form-container {
+
+    text-align: center;
+
+    margin-top: 20px;
+
+}
+
+ 
+
+/* Form table styles */
+
+table {
+
+    border-collapse: collapse;
+
+    width: 80%;
+
+    margin: 20px auto;
+
+    background-color: #fff; /* Changed table background color */
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
+
+}
+
+ 
+
+th, td {
+
+    padding: 10px;
+
+    text-align: left;
+
+}
+
+ 
+
+th {
+
+    background-color: #333;
+
+    color: white;
+
+}
+
+ 
+
+tr:nth-child(even) {
+
+    background-color: #f2f2f2;
+
+}
+
+ 
+
+/* Link styles */
+
+a {
+
+    text-decoration: none;
+
+    padding: 5px 10px;
+
+    background-color: #007bff;
+
+    color: white;
+
+    border-radius: 3px;
+
+}
+
+ 
+
+a:hover {
+
+    background-color: #0056b3;
+
+}
+
+ 
+
+/* Additional styles for specific elements */
+
+/* You can add more styles here as needed */
+
