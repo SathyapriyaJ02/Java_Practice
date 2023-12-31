@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<style>
+	body
+	{
+		background-image: linear-gradient(to left,thistle ,cornsilk);
+    }
+    label
+    {
+		font-size:large;
+	}
+	
+</style>
+<center>
+	<h1>Welcome to Student Registration Portal</h1>
+<form action = "./reg" method="post">
+<table cellpadding ="15">
+<tr>
+<td><label>First Name</label></td><td><input type="text" name="fname" value="" placeholder="enter your first name"></td>
+</tr><tr>
+<td><label>Last Name</label></td><td><input type="text" name="lname" value="" placeholder="enter your last name"></td>
+</tr><tr>
+<td><label>Department Name</label></td><td><input type="text" name="dept" value="" placeholder="enter your department name"></td>
+</tr><tr>	
+<td><label>Mobile Number</label></td><td><input type="text" name="mobile" value="" placeholder="enter your mobile number"></td>
+</tr><tr>
+<td><label>Email</label></td><td><input type="text" name="email" value="" placeholder="enter your Email-id"></td><br><br>	
+</tr><tr>
+<td><label>Password</label></td><td><input type="password" name="pwd" value="" placeholder="enter your password"></td>
+</tr>
+</table>
+<input type="submit" value="Register">
+<input type="reset" value="Reset">
+</form>			
+</center>
+</body>
+</html>
